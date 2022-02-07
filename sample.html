@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portifolio</title>
+    <link rel="stylesheet" href="sample.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="link-group">
+        <li class="link active"><a href="#">home</a></li>
+        <li class="link"><a href="#">projects</a></li>
+        <li class="link"><a href="#">about</a></li>
+        <li class="link"><a href="#">contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="home-section active">
+      <h1 class="hero-heading">
+        hello, i am Meghana.<br />
+        WELCOME!
+      </h1>
+      <img src="home.png" class="home-img" alt="" />
+    </section>
+
+    <section class="project-section active">
+      <h1 class="project-heading">some of my projects</h1>
+      <div class="project-container">
+        <div class="project-card">
+          <img src="project-1.png" class="project-img" alt="" />
+          <div class="project-content">
+            <h1 class="project-title">
+              Created First GUI Application using Python-Tkinter
+            </h1>
+            <p class="project-info">
+              -Tkinter is a Python Package for creating GUI applications. Python
+              has a lot of GUI frameworks, but Tkinter is the only framework
+              that’s built into the Python standard library.
+            </p>
+            <div class="project-btn-grp">
+              <button class="project-btn github">github repo</button>
+              <button class="project-btn live">see live</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-container">
+        <div class="project-card">
+          <img src="project-1.png" class="project-img" alt="" />
+          <div class="project-content">
+            <h1 class="project-title">
+              QR Code Generation using Python
+            </h1>
+            <p class="project-info">
+              QR code stands for Quick Response Code. QR codes may look simple
+              but they are capable of storing lots of data. Irrespective of how
+              much data they contain when scanned QR code allows the user to
+              access information instantly. That is why they are called Quick
+              Response Code.
+            </p>
+            <div class="project-btn-grp">
+              <button class="project-btn github">github repo</button>
+              <button class="project-btn live">see live</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-section">
+      <div class="about">
+        <div class="about-img-container">
+          <img src="home.png" class="about-img" alt="" />
+          <button class="download-cv-btn">downlaod cv</button>
+        </div>
+        <p class="about-info">meghana shenoy,NMAMIT,CS</p>
+      </div>
+    </section>
+
+    <div class="skill-section">
+      <h1 class="heading">skills</h1>
+      <div class="skills-container">
+        <div class="skill-card">
+          <img src="html.png" class="skill-img" alt="" />
+          <div class="skill-level">90%</div>
+          <h1 class="skill-name">HTML and CSS</h1>
+          <p class="skill-info">
+            created multiple resposive websites using html and css.
+          </p>
+        </div>
+      </div>
+
+      <div class="skills-container">
+        <div class="skill-card">
+          <img src="html.png" class="skill-img" alt="" />
+          <div class="skill-level">80%</div>
+          <h1 class="skill-name">AL and ML</h1>
+          <p class="skill-info">
+            2 group projects with concepts of AL and ML.
+          </p>
+        </div>
+      </div>
+
+      <div class="skills-container">
+        <div class="skill-card">
+          <img src="html.png" class="skill-img" alt="" />
+          <div class="skill-level">%98</div>
+          <h1 class="skill-name">Quantum Mechanics</h1>
+          <p class="skill-info">
+            Done various online courses on the subject.
+          </p>
+        </div>
+      </div>
+
+     
+
+    <div class="timeline">
+      <h1 class="heading">education and experience</h1>
+      <div class="card">
+        <div class="card-body">
+          <h1 class="card-title">education</h1>
+          <p class="card-detail">
+						-NMAMIT CS 2024
+						-EXPERT PU COLLEGE 20202
+						-CANARA CBSE
+          </p>
+        </div>
+      </div>
+      //+4 more cards
+    </div>
+
+    <section class="contact-section">
+      <form class="contact-form">
+        <input
+          type="text"
+          name="name"
+          id="name"
+          autocomplete="off"
+          placeholder="name"
+        />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          autocomplete="off"
+          placeholder="email"
+        />
+        <textarea
+          name="msg"
+          id="msg"
+          placeholder="message"
+          autocomplete="off"
+        ></textarea>
+        <button type="submit" class="form-submit-btn">contact</button>
+      </form>
+      <!-- map -->
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/place/N.M.A.M.+Institute+of+Technology/@13.1830026,74.9318003,17z/data=!3m1!4b1!4m5!3m4!1s0x3bbb56415ad85e5b:0x10b77ac6f6afc7fa!8m2!3d13.1830026!4d74.933989?hl=en"
+          width="600"
+          height="450"
+          style="border: 0;"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
